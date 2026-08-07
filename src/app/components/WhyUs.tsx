@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 import { useLanguage } from "../i18n/LanguageContext";
 
 const images = [
-  "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?w=400&h=300&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=300&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=300&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=300&fit=crop&auto=format",
+  "/services/01-individual-plan.jpg",
+  "/services/02-personal-mentors.jpg",
+  "/services/03-interview-prep.jpg",
+  "/services/04-application-management.jpg",
+  "/services/05-essay-work.jpg",
+  "/services/06-scholarship-help.jpg",
 ];
 
 export function WhyUs() {
