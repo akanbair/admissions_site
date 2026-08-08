@@ -31,7 +31,13 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link to="/" className="inline-flex items-center mb-5">
-              <img src="/logo-footer.svg" alt="ScholarsPath" className="h-9 w-auto" />
+              <img src="/logo-mark.svg" alt="Alumia" className="h-9 w-9" />
+              <span
+                className="ml-2 text-white"
+                style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "1.35rem", letterSpacing: "-0.02em" }}
+              >
+                Alumia
+              </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               {t.footer.description}
@@ -65,9 +71,9 @@ export function Footer() {
             {/* Contact + socials */}
             <div>
               <div className="flex flex-col gap-3 mb-4">
-                <a href="mailto:hello@scholarspath.com" className="flex items-center gap-2.5 text-sm text-slate-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:hello@alumia.io" className="flex items-center gap-2.5 text-sm text-slate-400 hover:text-blue-400 transition-colors">
                   <Mail className="w-4 h-4 flex-shrink-0" />
-                  hello@scholarspath.com
+                  hello@alumia.io
                 </a>
                 <a href="tel:+6591234567" className="flex items-center gap-2.5 text-sm text-slate-400 hover:text-blue-400 transition-colors">
                   <Phone className="w-4 h-4 flex-shrink-0" />

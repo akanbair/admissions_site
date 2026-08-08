@@ -117,7 +117,7 @@ export function AdmissionsQuiz() {
 
             <div className="mt-10 overflow-hidden bg-slate-50" style={{ borderRadius: "10px", height: "140px" }}>
               <img
-                src="https://images.unsplash.com/photo-1758270705317-3ef6142d306f?w=600&h=240&fit=crop&auto=format"
+                src="/quiz-banner.jpg"
                 alt="Students collaborating"
                 className="w-full h-full object-cover"
               />

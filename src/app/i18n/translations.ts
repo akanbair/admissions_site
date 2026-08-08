@@ -26,10 +26,10 @@ const en = {
     description: "A personal mentor, individual strategy, and full support — from choosing a university to enrollment",
     ctaPrimary: "Book Free Consultation",
     ctaSecondary: "See Success Stories",
-    badgeName: "Aigerim S.",
-    badgeUniversity: "Harvard University '27",
-    statOfferNumber: "6",
-    statOfferLabel: "Ivy League offers",
+    badgeName: "Every mentor",
+    badgeUniversity: "is a graduate of your target university",
+    statOfferNumber: "1-on-1",
+    statOfferLabel: "mentorship at every step",
     stats: [
       { value: "96%", label: "Top-university acceptance rate" },
       { value: "2,400+", label: "Students admitted worldwide" },
@@ -53,7 +53,7 @@ const en = {
         name: "Aigerim",
         university: "Yale University",
         program: "Political Science & Economics",
-        quote: "ScholarsPath helped me discover my authentic story and craft essays that truly reflected who I am. I still can't believe I got into Yale — it was always my dream.",
+        quote: "Alumia helped me discover my authentic story and craft essays that truly reflected who I am. I still can't believe I got into Yale — it was always my dream.",
         outcome: "Full Merit Scholarship",
       },
       {
@@ -67,7 +67,7 @@ const en = {
         name: "Dinara",
         university: "Wharton, UPenn",
         program: "Business",
-        quote: "As an international student, the US process felt overwhelming. ScholarsPath made it manageable — and thrilling. My strategic profile was what set my Wharton application apart.",
+        quote: "As an international student, the US process felt overwhelming. Alumia made it manageable — and thrilling. My strategic profile was what set my Wharton application apart.",
         outcome: "5 Top-10 Acceptances",
       },
       {
@@ -81,7 +81,7 @@ const en = {
         name: "Saya",
         university: "Princeton University",
         program: "Applied Mathematics",
-        quote: "I was rejected by three schools before joining ScholarsPath. Their strategy helped me strengthen my profile so dramatically that I was admitted to Princeton the next cycle.",
+        quote: "I was rejected by three schools before joining Alumia. Their strategy helped me strengthen my profile so dramatically that I was admitted to Princeton the next cycle.",
         outcome: "Princeton '26 · Research Publication",
       },
       {
@@ -162,7 +162,7 @@ const en = {
     title: "A Convincing Result",
     mentorStat: {
       value: "98%",
-      caption: "of applicants get into at least one of their top five priority universities with ScholarsPath",
+      caption: "of applicants get into at least one of their top five priority universities with Alumia",
     },
     stat1: {
       value: "7x",
@@ -268,7 +268,7 @@ const en = {
     successTitle: "You're all set",
     successFallbackName: "there",
     successBody: {
-      before: "A senior ScholarsPath advisor will review your profile and contact you at ",
+      before: "A senior Alumia advisor will review your profile and contact you at ",
       after: " within 24 hours.",
     },
     successList: [
@@ -321,7 +321,7 @@ const en = {
   finalCTA: {
     eyebrow: "University Admissions Consulting",
     title: "Your student's dream university is closer than you think",
-    description: "Join the families who trusted ScholarsPath to guide their students to world-class universities. Start with a free, no-obligation consultation.",
+    description: "Join the families who trusted Alumia to guide their students to world-class universities. Start with a free, no-obligation consultation.",
     ctaPrimary: "Free Consultation",
     ctaSecondary: "Message us on WhatsApp",
     stats: [
@@ -339,7 +339,7 @@ const en = {
     ],
     officesLabel: "Global Offices",
     offices: [{ city: "Kazakhstan", address: "17 Al-Farabi Avenue, Esentai Tower, Almaty 050059" }],
-    rights: "© 2026 ScholarsPath Pte. Ltd. All rights reserved. Registered in Kazakhstan.",
+    rights: "© 2026 Alumia Pte. Ltd. All rights reserved. Registered in Kazakhstan.",
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
     cookiePolicy: "Cookie Policy",
@@ -356,7 +356,7 @@ const en = {
         { heading: "Data storage and security", body: "We take reasonable technical and organizational measures to protect your data from unauthorized access, loss, or misuse. Data is retained only for as long as necessary to fulfil the purposes described in this policy." },
         { heading: "Your rights", body: "You may request access to, correction of, or deletion of your personal data at any time, and you may withdraw your consent to future communications by contacting us." },
         { heading: "Changes to this policy", body: "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date." },
-        { heading: "Contact us", body: "If you have questions about this Privacy Policy, please contact us at hello@scholarspath.com." },
+        { heading: "Contact us", body: "If you have questions about this Privacy Policy, please contact us at hello@alumia.io." },
       ],
     },
     terms: {
@@ -365,11 +365,11 @@ const en = {
       sections: [
         { heading: "Acceptance of terms", body: "By accessing or using this website, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our website or services." },
         { heading: "Use of the website", body: "You may use this website only for lawful purposes and in accordance with these Terms. You agree not to misuse the website, interfere with its operation, or attempt to access it using unauthorized means." },
-        { heading: "Our services", body: "ScholarsPath provides university admissions consulting services. Descriptions of our programs on this website are for informational purposes and do not constitute a guarantee of any specific outcome, including admission to any university." },
-        { heading: "Intellectual property", body: "All content on this website, including text, graphics, logos, and images, is the property of ScholarsPath or its licensors and is protected by applicable intellectual property laws." },
-        { heading: "Limitation of liability", body: "This website and its content are provided \"as is\" without warranties of any kind. ScholarsPath shall not be liable for any indirect, incidental, or consequential damages arising from your use of the website." },
+        { heading: "Our services", body: "Alumia provides university admissions consulting services. Descriptions of our programs on this website are for informational purposes and do not constitute a guarantee of any specific outcome, including admission to any university." },
+        { heading: "Intellectual property", body: "All content on this website, including text, graphics, logos, and images, is the property of Alumia or its licensors and is protected by applicable intellectual property laws." },
+        { heading: "Limitation of liability", body: "This website and its content are provided \"as is\" without warranties of any kind. Alumia shall not be liable for any indirect, incidental, or consequential damages arising from your use of the website." },
         { heading: "Changes to these terms", body: "We may revise these Terms of Service at any time. Continued use of the website after changes are posted constitutes your acceptance of the revised terms." },
-        { heading: "Contact us", body: "Questions about these Terms of Service can be sent to hello@scholarspath.com." },
+        { heading: "Contact us", body: "Questions about these Terms of Service can be sent to hello@alumia.io." },
       ],
     },
     cookies: {
@@ -380,7 +380,7 @@ const en = {
         { heading: "Cookies we use", body: "We use essential cookies required for the website to function, analytics cookies to understand site usage, and, where applicable, marketing cookies to measure the effectiveness of our campaigns." },
         { heading: "Managing cookies", body: "You can control or delete cookies through your browser settings at any time. Please note that disabling certain cookies may affect the functionality of this website." },
         { heading: "Changes to this policy", body: "We may update this Cookie Policy from time to time. Any changes will be posted on this page with an updated revision date." },
-        { heading: "Contact us", body: "If you have questions about our use of cookies, please contact us at hello@scholarspath.com." },
+        { heading: "Contact us", body: "If you have questions about our use of cookies, please contact us at hello@alumia.io." },
       ],
     },
   },
@@ -406,10 +406,10 @@ const ru: typeof en = {
     description: "Личный ментор, индивидуальная стратегия и полное сопровождение — от выбора университета до зачисления",
     ctaPrimary: "Бесплатная консультация",
     ctaSecondary: "Истории успеха",
-    badgeName: "Айгерим С.",
-    badgeUniversity: "Harvard University '27",
-    statOfferNumber: "6",
-    statOfferLabel: "офферов Ivy League",
+    badgeName: "Каждый ментор —",
+    badgeUniversity: "выпускник целевого университета",
+    statOfferNumber: "1 на 1",
+    statOfferLabel: "менторство на каждом этапе",
     stats: [
       { value: "96%", label: "Поступление в топ-университеты" },
       { value: "2 400+", label: "Студентов по всему миру" },
@@ -433,7 +433,7 @@ const ru: typeof en = {
         name: "Айгерім",
         university: "Yale University",
         program: "Политология и экономика",
-        quote: "ScholarsPath помогли мне раскрыть мою настоящую историю и написать эссе, которые по-настоящему отражали меня. До сих пор не верится, что я поступила в Yale — это была моя мечта.",
+        quote: "Alumia помогли мне раскрыть мою настоящую историю и написать эссе, которые по-настоящему отражали меня. До сих пор не верится, что я поступила в Yale — это была моя мечта.",
         outcome: "Полная merit-стипендия",
       },
       {
@@ -447,7 +447,7 @@ const ru: typeof en = {
         name: "Динара",
         university: "Wharton, UPenn",
         program: "Бизнес",
-        quote: "Как иностранной студентке, американский процесс казался мне подавляющим. ScholarsPath сделали его понятным — и увлекательным. Именно моя стратегия профиля выделила заявку в Wharton.",
+        quote: "Как иностранной студентке, американский процесс казался мне подавляющим. Alumia сделали его понятным — и увлекательным. Именно моя стратегия профиля выделила заявку в Wharton.",
         outcome: "5 поступлений в топ-10",
       },
       {
@@ -461,7 +461,7 @@ const ru: typeof en = {
         name: "Сая",
         university: "Princeton University",
         program: "Прикладная математика",
-        quote: "Меня отклонили три школы до того, как я обратилась в ScholarsPath. Их стратегия настолько усилила мой профиль, что я поступила в Princeton уже в следующем цикле.",
+        quote: "Меня отклонили три школы до того, как я обратилась в Alumia. Их стратегия настолько усилила мой профиль, что я поступила в Princeton уже в следующем цикле.",
         outcome: "Princeton '26 · Научная публикация",
       },
       {
@@ -542,7 +542,7 @@ const ru: typeof en = {
     title: "Убедительный результат",
     mentorStat: {
       value: "98%",
-      caption: "абитуриентов поступают с ScholarsPath минимум в один из пяти приоритетных вузов своего списка",
+      caption: "абитуриентов поступают с Alumia минимум в один из пяти приоритетных вузов своего списка",
     },
     stat1: {
       value: "7x",
@@ -648,7 +648,7 @@ const ru: typeof en = {
     successTitle: "Всё готово",
     successFallbackName: "друг",
     successBody: {
-      before: "Старший советник ScholarsPath изучит профиль и свяжется с вами по номеру ",
+      before: "Старший советник Alumia изучит профиль и свяжется с вами по номеру ",
       after: " в течение 24 часов.",
     },
     successList: [
@@ -701,7 +701,7 @@ const ru: typeof en = {
   finalCTA: {
     eyebrow: "Консалтинг по поступлению в университеты",
     title: "Университет мечты вашего ребёнка ближе, чем кажется",
-    description: "Присоединяйтесь к семьям, которые доверили ScholarsPath путь своих детей к университетам мирового уровня. Начните с бесплатной консультации без обязательств.",
+    description: "Присоединяйтесь к семьям, которые доверили Alumia путь своих детей к университетам мирового уровня. Начните с бесплатной консультации без обязательств.",
     ctaPrimary: "Бесплатная консультация",
     ctaSecondary: "Написать в WhatsApp",
     stats: [
@@ -719,7 +719,7 @@ const ru: typeof en = {
     ],
     officesLabel: "Наши офисы",
     offices: [{ city: "Казахстан", address: "пр. Аль-Фараби 17, Esentai Tower, Алматы 050059" }],
-    rights: "© 2026 ScholarsPath Pte. Ltd. Все права защищены. Зарегистрировано в Казахстане.",
+    rights: "© 2026 Alumia Pte. Ltd. Все права защищены. Зарегистрировано в Казахстане.",
     privacyPolicy: "Политика конфиденциальности",
     termsOfService: "Условия использования",
     cookiePolicy: "Политика cookie",
@@ -736,7 +736,7 @@ const ru: typeof en = {
         { heading: "Хранение и защита данных", body: "Мы принимаем разумные технические и организационные меры для защиты ваших данных от несанкционированного доступа, утраты или неправомерного использования. Данные хранятся только столько, сколько необходимо для целей, описанных в этой политике." },
         { heading: "Ваши права", body: "Вы можете в любой момент запросить доступ к своим персональным данным, их исправление или удаление, а также отозвать согласие на дальнейшую коммуникацию, обратившись к нам." },
         { heading: "Изменения политики", body: "Мы можем время от времени обновлять данную Политику конфиденциальности. Все изменения будут опубликованы на этой странице с указанием даты обновления." },
-        { heading: "Контакты", body: "Если у вас есть вопросы по данной Политике конфиденциальности, свяжитесь с нами по адресу hello@scholarspath.com." },
+        { heading: "Контакты", body: "Если у вас есть вопросы по данной Политике конфиденциальности, свяжитесь с нами по адресу hello@alumia.io." },
       ],
     },
     terms: {
@@ -745,12 +745,12 @@ const ru: typeof en = {
       sections: [
         { heading: "Общие положения", body: "Используя данный сайт, вы соглашаетесь с настоящими Условиями использования. Если вы не согласны с какой-либо частью условий, пожалуйста, не пользуйтесь сайтом и нашими услугами." },
         { heading: "Использование сайта", body: "Вы можете использовать данный сайт только в законных целях и в соответствии с настоящими Условиями. Вы обязуетесь не злоупотреблять сайтом, не нарушать его работу и не пытаться получить доступ к нему несанкционированными способами." },
-        { heading: "Наши услуги", body: "ScholarsPath оказывает консалтинговые услуги по поступлению в университеты. Описания наших программ на сайте носят информационный характер и не являются гарантией какого-либо конкретного результата, включая поступление в какой-либо университет." },
-        { heading: "Интеллектуальная собственность", body: "Весь контент на этом сайте, включая текст, графику, логотипы и изображения, является собственностью ScholarsPath или её лицензиаров и защищён применимым законодательством об интеллектуальной собственности." },
-        { heading: "Ограничение ответственности", body: "Сайт и его содержимое предоставляются «как есть» без каких-либо гарантий. ScholarsPath не несёт ответственности за какие-либо косвенные, случайные или сопутствующие убытки, возникшие в связи с использованием сайта." },
+        { heading: "Наши услуги", body: "Alumia оказывает консалтинговые услуги по поступлению в университеты. Описания наших программ на сайте носят информационный характер и не являются гарантией какого-либо конкретного результата, включая поступление в какой-либо университет." },
+        { heading: "Интеллектуальная собственность", body: "Весь контент на этом сайте, включая текст, графику, логотипы и изображения, является собственностью Alumia или её лицензиаров и защищён применимым законодательством об интеллектуальной собственности." },
+        { heading: "Ограничение ответственности", body: "Сайт и его содержимое предоставляются «как есть» без каких-либо гарантий. Alumia не несёт ответственности за какие-либо косвенные, случайные или сопутствующие убытки, возникшие в связи с использованием сайта." },
         { heading: "Изменения условий", body: "Мы можем пересматривать данные Условия использования в любое время. Продолжение использования сайта после публикации изменений означает ваше согласие с обновлёнными условиями." },
         { heading: "Применимое право", body: "Настоящие Условия регулируются законодательством Республики Казахстан." },
-        { heading: "Контакты", body: "Вопросы по данным Условиям использования можно направлять на hello@scholarspath.com." },
+        { heading: "Контакты", body: "Вопросы по данным Условиям использования можно направлять на hello@alumia.io." },
       ],
     },
     cookies: {
@@ -761,7 +761,7 @@ const ru: typeof en = {
         { heading: "Какие cookie мы используем", body: "Мы используем обязательные cookie, необходимые для работы сайта, аналитические cookie для анализа посещаемости, а также, при необходимости, маркетинговые cookie для оценки эффективности наших кампаний." },
         { heading: "Управление cookie", body: "Вы можете в любой момент контролировать или удалять cookie через настройки вашего браузера. Обратите внимание, что отключение некоторых cookie может повлиять на работу сайта." },
         { heading: "Изменения политики", body: "Мы можем время от времени обновлять данную Политику cookie. Все изменения будут опубликованы на этой странице с указанием даты обновления." },
-        { heading: "Контакты", body: "Если у вас есть вопросы об использовании cookie, свяжитесь с нами по адресу hello@scholarspath.com." },
+        { heading: "Контакты", body: "Если у вас есть вопросы об использовании cookie, свяжитесь с нами по адресу hello@alumia.io." },
       ],
     },
   },
@@ -787,10 +787,10 @@ const kk: typeof en = {
     description: "Жеке тәлімгер, дербес стратегия және толық қолдау — университет таңдаудан бастап қабылдануға дейін",
     ctaPrimary: "Тегін кеңеске жазылу",
     ctaSecondary: "Табыс тарихтары",
-    badgeName: "Айгерім С.",
-    badgeUniversity: "Harvard University '27",
-    statOfferNumber: "6",
-    statOfferLabel: "Ivy League ұсынысы",
+    badgeName: "Әр ментор —",
+    badgeUniversity: "мақсатты университеттің түлегі",
+    statOfferNumber: "1-ге 1",
+    statOfferLabel: "әр кезеңдегі менторлық",
     stats: [
       { value: "96%", label: "Топ университеттерге түсу деңгейі" },
       { value: "2 400+", label: "Әлем бойынша қабылданған студент" },
@@ -814,7 +814,7 @@ const kk: typeof en = {
         name: "Айгерім",
         university: "Yale University",
         program: "Саясаттану және экономика",
-        quote: "ScholarsPath маған өз шынайы оқиғамды ашуға және өзімді нақты көрсететін эссе жазуға көмектесті. Yale-ге түскеніме әлі сенбеймін — бұл әрқашан менің арманым болатын.",
+        quote: "Alumia маған өз шынайы оқиғамды ашуға және өзімді нақты көрсететін эссе жазуға көмектесті. Yale-ге түскеніме әлі сенбеймін — бұл әрқашан менің арманым болатын.",
         outcome: "Толық merit-стипендия",
       },
       {
@@ -828,7 +828,7 @@ const kk: typeof en = {
         name: "Динара",
         university: "Wharton, UPenn",
         program: "Бизнес",
-        quote: "Шетелдік студент ретінде АҚШ процесі маған қиын болып көрінді. ScholarsPath оны түсінікті әрі қызықты етті. Дәл менің стратегиялық профилім Wharton өтінішімді ерекшелендірді.",
+        quote: "Шетелдік студент ретінде АҚШ процесі маған қиын болып көрінді. Alumia оны түсінікті әрі қызықты етті. Дәл менің стратегиялық профилім Wharton өтінішімді ерекшелендірді.",
         outcome: "Топ-10 бойынша 5 қабылдау",
       },
       {
@@ -842,7 +842,7 @@ const kk: typeof en = {
         name: "Сая",
         university: "Princeton University",
         program: "Қолданбалы математика",
-        quote: "ScholarsPath-қа қосылмас бұрын мені үш мектеп қабылдамады. Олардың стратегиясы менің профилімді соншалықты күшейтті, келесі циклде Princeton-ға қабылдандым.",
+        quote: "Alumia-қа қосылмас бұрын мені үш мектеп қабылдамады. Олардың стратегиясы менің профилімді соншалықты күшейтті, келесі циклде Princeton-ға қабылдандым.",
         outcome: "Princeton '26 · Ғылыми жарияланым",
       },
       {
@@ -923,7 +923,7 @@ const kk: typeof en = {
     title: "Сенімді нәтиже",
     mentorStat: {
       value: "98%",
-      caption: "талапкер ScholarsPath-пен бірге өзінің басым бес университетінің кемінде біріне түседі",
+      caption: "талапкер Alumia-пен бірге өзінің басым бес университетінің кемінде біріне түседі",
     },
     stat1: {
       value: "7x",
@@ -1029,7 +1029,7 @@ const kk: typeof en = {
     successTitle: "Бәрі дайын",
     successFallbackName: "құрметті клиент",
     successBody: {
-      before: "ScholarsPath аға кеңесшісі профиліңізді қарап, сізбен ",
+      before: "Alumia аға кеңесшісі профиліңізді қарап, сізбен ",
       after: " нөірі арқылы 24 сағат ішінде хабарласады.",
     },
     successList: [
@@ -1082,7 +1082,7 @@ const kk: typeof en = {
   finalCTA: {
     eyebrow: "Университетке түсу бойынша консалтинг",
     title: "Балаңыздың арман университеті ойлағаннан жақын",
-    description: "Балаларын әлемдік деңгейдегі университеттерге бағыттау үшін ScholarsPath-қа сенген отбасыларға қосылыңыз. Тегін, еш міндеттемесіз кеңестен бастаңыз.",
+    description: "Балаларын әлемдік деңгейдегі университеттерге бағыттау үшін Alumia-қа сенген отбасыларға қосылыңыз. Тегін, еш міндеттемесіз кеңестен бастаңыз.",
     ctaPrimary: "Тегін кеңес",
     ctaSecondary: "WhatsApp-қа жазу",
     stats: [
@@ -1100,7 +1100,7 @@ const kk: typeof en = {
     ],
     officesLabel: "Біздің офистер",
     offices: [{ city: "Қазақстан", address: "Әл-Фараби даңғылы 17, Esentai Tower, Алматы 050059" }],
-    rights: "© 2026 ScholarsPath Pte. Ltd. Барлық құқықтар қорғалған. Қазақстанда тіркелген.",
+    rights: "© 2026 Alumia Pte. Ltd. Барлық құқықтар қорғалған. Қазақстанда тіркелген.",
     privacyPolicy: "Құпиялылық саясаты",
     termsOfService: "Қызмет көрсету шарттары",
     cookiePolicy: "Cookie саясаты",
@@ -1117,7 +1117,7 @@ const kk: typeof en = {
         { heading: "Деректерді сақтау және қорғау", body: "Біз деректеріңізді рұқсатсыз қол жеткізуден, жоғалтудан немесе теріс пайдаланудан қорғау үшін ақылға қонымды техникалық және ұйымдастырушылық шараларды қолданамыз. Деректер осы саясатта көрсетілген мақсаттар үшін қажетті мерзімге ғана сақталады." },
         { heading: "Сіздің құқықтарыңыз", body: "Сіз кез келген уақытта жеке деректеріңізге қол жеткізуді, оларды түзетуді немесе жоюды сұрай аласыз, сондай-ақ бізге хабарласу арқылы келесі хабарламаларға келісіміңізді кері қайтара аласыз." },
         { heading: "Саясаттағы өзгерістер", body: "Біз осы Құпиялылық саясатын мезгіл-мезгіл жаңартып отыруымыз мүмкін. Барлық өзгерістер осы бетте жаңартылған күнмен бірге жарияланады." },
-        { heading: "Байланыс", body: "Осы Құпиялылық саясаты бойынша сұрақтарыңыз болса, hello@scholarspath.com мекенжайы арқылы бізге хабарласыңыз." },
+        { heading: "Байланыс", body: "Осы Құпиялылық саясаты бойынша сұрақтарыңыз болса, hello@alumia.io мекенжайы арқылы бізге хабарласыңыз." },
       ],
     },
     terms: {
@@ -1126,12 +1126,12 @@ const kk: typeof en = {
       sections: [
         { heading: "Жалпы ережелер", body: "Осы сайтты пайдалану арқылы сіз осы Қызмет көрсету шарттарын қабылдайсыз. Егер шарттардың кез келген бөлігімен келіспесеңіз, сайтты және қызметтерімізді пайдаланбаңыз." },
         { heading: "Сайтты пайдалану", body: "Сіз осы сайтты тек заңды мақсаттарда және осы Шарттарға сәйкес пайдалана аласыз. Сіз сайтты теріс пайдаланбауға, оның жұмысына кедергі келтірмеуге және оған рұқсатсыз тәсілдермен қол жеткізуге тырыспауға келісесіз." },
-        { heading: "Біздің қызметтеріміз", body: "ScholarsPath университетке қабылдану бойынша консалтингтік қызметтер ұсынады. Сайттағы бағдарламаларымыздың сипаттамалары ақпараттық сипатта және кез келген нақты нәтижеге, соның ішінде кез келген университетке қабылдануға кепілдік бермейді." },
-        { heading: "Зияткерлік меншік", body: "Осы сайттағы барлық мазмұн, соның ішінде мәтін, графика, логотиптер және суреттер ScholarsPath компаниясының немесе оның лицензиарларының меншігі болып табылады және қолданыстағы зияткерлік меншік заңнамасымен қорғалған." },
-        { heading: "Жауапкершілікті шектеу", body: "Сайт және оның мазмұны ешбір кепілдіксіз «сол күйінде» ұсынылады. ScholarsPath сайтты пайдалануға байланысты туындаған жанама, кездейсоқ немесе салдарлы залалдар үшін жауапты болмайды." },
+        { heading: "Біздің қызметтеріміз", body: "Alumia университетке қабылдану бойынша консалтингтік қызметтер ұсынады. Сайттағы бағдарламаларымыздың сипаттамалары ақпараттық сипатта және кез келген нақты нәтижеге, соның ішінде кез келген университетке қабылдануға кепілдік бермейді." },
+        { heading: "Зияткерлік меншік", body: "Осы сайттағы барлық мазмұн, соның ішінде мәтін, графика, логотиптер және суреттер Alumia компаниясының немесе оның лицензиарларының меншігі болып табылады және қолданыстағы зияткерлік меншік заңнамасымен қорғалған." },
+        { heading: "Жауапкершілікті шектеу", body: "Сайт және оның мазмұны ешбір кепілдіксіз «сол күйінде» ұсынылады. Alumia сайтты пайдалануға байланысты туындаған жанама, кездейсоқ немесе салдарлы залалдар үшін жауапты болмайды." },
         { heading: "Шарттардағы өзгерістер", body: "Біз осы Қызмет көрсету шарттарын кез келген уақытта қайта қарауымыз мүмкін. Өзгерістер жарияланғаннан кейін сайтты пайдалануды жалғастыру жаңартылған шарттарды қабылдағаныңызды білдіреді." },
         { heading: "Қолданылатын құқық", body: "Осы Шарттар Қазақстан Республикасының заңнамасымен реттеледі." },
-        { heading: "Байланыс", body: "Осы Қызмет көрсету шарттары бойынша сұрақтарды hello@scholarspath.com мекенжайына жіберуге болады." },
+        { heading: "Байланыс", body: "Осы Қызмет көрсету шарттары бойынша сұрақтарды hello@alumia.io мекенжайына жіберуге болады." },
       ],
     },
     cookies: {
@@ -1142,7 +1142,7 @@ const kk: typeof en = {
         { heading: "Біз қандай cookie қолданамыз", body: "Біз сайттың жұмысы үшін қажетті міндетті cookie, сайтты пайдалануды талдау үшін аналитикалық cookie, қажет болған жағдайда науқандарымыздың тиімділігін бағалау үшін маркетингтік cookie қолданамыз." },
         { heading: "Cookie басқару", body: "Сіз кез келген уақытта браузер параметрлері арқылы cookie файлдарын басқара немесе жоя аласыз. Кейбір cookie өшірілген жағдайда сайттың жұмысына әсер етуі мүмкін екенін ескеріңіз." },
         { heading: "Саясаттағы өзгерістер", body: "Біз осы Cookie саясатын мезгіл-мезгіл жаңартып отыруымыз мүмкін. Барлық өзгерістер осы бетте жаңартылған күнмен бірге жарияланады." },
-        { heading: "Байланыс", body: "Cookie файлдарын қолдану туралы сұрақтарыңыз болса, hello@scholarspath.com мекенжайы арқылы бізге хабарласыңыз." },
+        { heading: "Байланыс", body: "Cookie файлдарын қолдану туралы сұрақтарыңыз болса, hello@alumia.io мекенжайы арқылы бізге хабарласыңыз." },
       ],
     },
   },

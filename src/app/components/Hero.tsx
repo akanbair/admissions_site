@@ -2,7 +2,9 @@ import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { useLanguage } from "../i18n/LanguageContext";
 
-const PLACEHOLDER_IMG = "https://images.unsplash.com/photo-1758270704763-22072a90d3b6?w=720&h=560&fit=crop&auto=format";
+const HERO_MAIN = "/hero/hero-main.jpg";
+const HERO_CAMPUS = "/hero/hero-campus.jpg";
+const HERO_MENTOR = "/hero/hero-mentor.jpg";
 
 export function Hero() {
   const { t, lang } = useLanguage();
@@ -88,7 +90,7 @@ export function Hero() {
             style={{ borderRadius: "16px" }}
           >
             <img
-              src={PLACEHOLDER_IMG}
+              src={HERO_MAIN}
               alt="Student celebrating admission"
               className="w-full h-full object-cover"
             />
@@ -110,7 +112,7 @@ export function Hero() {
 
           <div className="overflow-hidden bg-slate-100" style={{ borderRadius: "16px" }}>
             <img
-              src={PLACEHOLDER_IMG}
+              src={HERO_CAMPUS}
               alt="Students on campus"
               className="w-full h-full object-cover"
             />
@@ -118,7 +120,7 @@ export function Hero() {
 
           <div className="overflow-hidden bg-slate-100 relative" style={{ borderRadius: "16px" }}>
             <img
-              src={PLACEHOLDER_IMG}
+              src={HERO_MENTOR}
               alt="Student celebrating offer"
               className="w-full h-full object-cover"
             />
