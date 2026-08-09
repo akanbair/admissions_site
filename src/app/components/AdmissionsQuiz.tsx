@@ -35,8 +35,31 @@ function OptionButton({ label, selected, onClick }: { label: string; selected: b
   );
 }
 
+const LEADS_ENDPOINT = "https://script.google.com/macros/s/AKfycbyq3aF3qZaf6EEx1xji-MmZganWfXb1HFyauwWyEXyfG0qGVDGU3LDBsFR7mYKEGKNI6g/exec";
+
+function sendLead(data: QuizData, lang: string) {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const payload = {
+      name: data.parentName,
+      phone: data.phone,
+      grade: data.grade,
+      major: data.major,
+      stage: data.stage,
+      lang,
+      utm_source: params.get("utm_source") || "",
+      utm_campaign: params.get("utm_campaign") || "",
+      utm_content: params.get("utm_content") || "",
+      page: window.location.pathname,
+    };
+    fetch(LEADS_ENDPOINT, { method: "POST", mode: "no-cors", body: JSON.stringify(payload) });
+  } catch {
+    /* never block the UI on lead delivery */
+  }
+}
+
 export function AdmissionsQuiz() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const [currentStep, setCurrentStep] = useState(0);
   const [data, setData] = useState<QuizData>(initialData);
   const [submitted, setSubmitted] = useState(false);
@@ -48,7 +71,7 @@ export function AdmissionsQuiz() {
 
   function goNext() {
     if (currentStep < steps.length - 1) { setDirection("forward"); setCurrentStep((s) => s + 1); }
-    else setSubmitted(true);
+    else { sendLead(data, lang); setSubmitted(true); }
   }
   function goBack() {
     if (currentStep > 0) { setDirection("back"); setCurrentStep((s) => s - 1); }
