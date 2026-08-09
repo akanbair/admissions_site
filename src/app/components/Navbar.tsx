@@ -51,13 +51,7 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img src="/logo-mark.svg" alt="Alumia" className="h-8 w-8" />
-          <span
-            className="ml-2 text-[#0A1628]"
-            style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "1.25rem", letterSpacing: "-0.02em" }}
-          >
-            Alumia
-          </span>
+          <img src="/logo.svg" alt="Alumia" className="h-8 w-auto" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

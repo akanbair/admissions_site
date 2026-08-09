@@ -1,11 +1,10 @@
 import { motion } from "motion/react";
-import { TrendingUp } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import { useLanguage } from "../i18n/LanguageContext";
-import { mentorMeta } from "./Mentors";
 
 export function ProvenResults() {
   const { t } = useLanguage();
-  const photo = mentorMeta[0].photo;
+  const photo = "/mentors/solo.jpg";
 
   return (
     <section id="proven-results" className="py-20 bg-white">
@@ -121,8 +120,8 @@ export function ProvenResults() {
                       fontSize: "0.8rem",
                     }}
                   >
-                    <TrendingUp className="w-3.5 h-3.5" />
-                    +{uni.percent}%
+                    <GraduationCap className="w-3.5 h-3.5" />
+                    {uni.percent}
                   </span>
                 </div>
               ))}

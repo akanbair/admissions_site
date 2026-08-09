@@ -31,13 +31,7 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link to="/" className="inline-flex items-center mb-5">
-              <img src="/logo-mark.svg" alt="Alumia" className="h-9 w-9" />
-              <span
-                className="ml-2 text-white"
-                style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "1.35rem", letterSpacing: "-0.02em" }}
-              >
-                Alumia
-              </span>
+              <img src="/logo-footer.svg" alt="Alumia" className="h-9 w-auto" />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               {t.footer.description}

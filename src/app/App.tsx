@@ -3,7 +3,6 @@ import { LanguageProvider } from "./i18n/LanguageContext";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { UniversityLogos } from "./components/UniversityLogos";
-import { Testimonials } from "./components/Testimonials";
 import { WhyUs } from "./components/WhyUs";
 import { HowItWorks } from "./components/HowItWorks";
 import { Mentors } from "./components/Mentors"; // hidden for now — see HomePage, kept for future re-enable
@@ -26,7 +25,6 @@ function HomePage() {
       <main>
         <Hero />
         <UniversityLogos />
-        <Testimonials />
         <WhyUs />
         <HowItWorks />
         {/* <Mentors /> hidden — replaced by ProvenResults below, keep this to re-enable later */}
