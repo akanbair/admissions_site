@@ -27,6 +27,23 @@ function captureAttribution(): Record<string, string> {
   return stored;
 }
 
+
+/** Уникальный id события — нужен, чтобы Meta склеила браузерное и серверное (CAPI) событие и не посчитала конверсию дважды. */
+function newEventId(): string {
+  try {
+    if (typeof crypto !== "undefined" && "randomUUID" in crypto) return crypto.randomUUID();
+  } catch {
+    /* старый браузер */
+  }
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+declare global {
+  interface Window {
+    fbq?: (...args: unknown[]) => void;
+  }
+}
+
 type QuizData = {
   grade: string;
   country: string;
@@ -160,7 +177,14 @@ export function QuizPage() {
 
   function submit() {
     setSending(true);
+    const eventId = newEventId();
+    try {
+      window.fbq?.("track", "Lead", { content_name: "quiz_landing" }, { eventID: eventId });
+    } catch {
+      /* пиксель заблокирован — событие всё равно уйдёт с сервера через CAPI */
+    }
     const payload = {
+      event_id: eventId,
       name: data.name,
       phone: data.phone,
       grade: data.grade,

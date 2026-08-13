@@ -37,10 +37,32 @@ function OptionButton({ label, selected, onClick }: { label: string; selected: b
 
 const LEADS_ENDPOINT = "https://script.google.com/macros/s/AKfycbyq3aF3qZaf6EEx1xji-MmZganWfXb1HFyauwWyEXyfG0qGVDGU3LDBsFR7mYKEGKNI6g/exec";
 
+function newEventId(): string {
+  try {
+    if (typeof crypto !== "undefined" && "randomUUID" in crypto) return crypto.randomUUID();
+  } catch {
+    /* старый браузер */
+  }
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+declare global {
+  interface Window {
+    fbq?: (...args: unknown[]) => void;
+  }
+}
+
 function sendLead(data: QuizData, lang: string) {
   try {
     const params = new URLSearchParams(window.location.search);
+    const eventId = newEventId();
+    try {
+      window.fbq?.("track", "Lead", { content_name: "home_quiz" }, { eventID: eventId });
+    } catch {
+      /* пиксель заблокирован */
+    }
     const payload = {
+      event_id: eventId,
       name: data.parentName,
       phone: data.phone,
       grade: data.grade,
