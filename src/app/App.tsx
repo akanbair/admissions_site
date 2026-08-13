@@ -16,6 +16,7 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { ScrollToTopButton } from "./components/ScrollToTopButton";
 import { MobileStickyCTA } from "./components/MobileStickyCTA";
 import { LegalPage } from "./pages/LegalPage";
+import { QuizPage } from "./pages/QuizPage";
 
 function HomePage() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/quiz" element={<QuizPage />} />
           <Route path="/privacy-policy" element={<LegalPage type="privacy" />} />
           <Route path="/terms-of-service" element={<LegalPage type="terms" />} />
           <Route path="/cookie-policy" element={<LegalPage type="cookies" />} />
